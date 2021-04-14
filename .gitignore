@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+__pycache__
+unity-environment.log
+Reacher.app
+rough/
+.DS_Store
