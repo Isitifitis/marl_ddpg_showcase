@@ -18,17 +18,14 @@ The task is episodic, and in order to solve the environment, the agent should ge
 A reward of +0.1 is provided for time an agent hits the ball over the net, while -0.01 is the reward for dropping the ball or hitting it out of bounds. 
 
 Thus, the goal of the agents is to continue playing for as many time steps as possible.
-
 #### States
 
-The state space has 24 variables, corresponding to position, rotation, velocity, and angular velocities of the arm
-
+The state space has 24 variables, 8 for each of the agents and the ball, corresponding to position and velocity.
 #### Actions
 
-Each action is a vector with four numbers, corresponding to torque applicable to two joints. 
+Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping. 
 
 Every entry in the action vector should be a number between -1 and 1.
-
 ### Environment Setup
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
