@@ -46,9 +46,9 @@ Following from the [training notebook](Training.ipynb) we can see how the averag
 
 ### Solution
 
-This figure shows the scores over the first ~2600 episodes, going from nothing to a solved model like `agent_1_first_score_actor_model.pth` & `agent_1_first_score_critic_model.pth`
+This figure shows the scores over the first 2718 episodes, going from nothing to a solved model like `agent_1_first_score_actor_model.pth` & `agent_1_first_score_critic_model.pth`
 
-**This demonstrates that the model solved the environment in 2617 episodes**, averaging a running score of 0.50.
+**This demonstrates that the model solved the environment in 2718 episodes**, averaging a running score of 0.52.
 
 ![solution](train_1.png)
 
